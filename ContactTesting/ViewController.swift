@@ -44,7 +44,8 @@ extension ViewController: CNContactPickerDelegate {
     
     // 연락처 단일 선택
 //    func contactPicker(_ picker: CNContactPickerViewController, didSelect contact: CNContact) {
-//
+//        self.selectedContact = contact
+//        self.tableView.reloadData()
 //    }
     
     // 연락처 다중 선택
@@ -58,6 +59,7 @@ extension ViewController: CNContactPickerDelegate {
     }
     
 //    func contactPicker(_ picker: CNContactPickerViewController, didSelect contactProperty: CNContactProperty) {
+//        self.selectedContact = contact
 //        self.tableView.reloadData()
 //    }
     
