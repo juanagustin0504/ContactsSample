@@ -1,13 +1,23 @@
-//
 //  ViewController.swift
-//  ContactTesting
-//
-//  Created by Webcash on 2021/07/06.
-//
 
 import UIKit
 import Contacts
 import ContactsUI
+
+/**
+ ### View Controller
+ 
+ Main Class
+ 
+ - Author:
+ moon-john(문요한)
+ 
+ - Date:
+ 2021/07/09
+ 
+ - Copyright:
+ © 2021 moon-john. All rights reserved.
+ */
 
 class ViewController: UIViewController {
 
